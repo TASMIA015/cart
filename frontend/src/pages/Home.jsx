@@ -1,12 +1,7 @@
-import React from 'react';
-
-function Home() {
+export default function Home() {
   return (
-    <div style={{ fontSize: '30px', color: 'red' }}>
-      Home page
+    <div style={{ fontSize: '30px', color: 'red', textAlign: 'center', marginTop: '50px' }}>
+      🏠 Home Page
     </div>
   );
 }
-
-
-export default Home;
